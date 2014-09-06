@@ -103,7 +103,7 @@ body{
 }
 
 
-.register_form{
+.pragmatic_form{
     position: relative;
 top:10px;
  width: 300px;
@@ -116,12 +116,12 @@ top:10px;
 
 }
 
-.register_form form table tr td{
+.pragmatic_form form table tr td{
 
     height: 50px;
 }
 
-.register_form a{
+.pragmatic_form a{
 
 
 color: #101010 ;
@@ -130,7 +130,7 @@ text-decoration: none;
 list-style-type: none;
 
 }
-.register_form a:hover{
+.pragmatic_form a:hover{
 
 
 color: #500000 ;
@@ -139,13 +139,13 @@ text-decoration: none;
 list-style-type: none;
 
 }
-.register_form span{
+.pragmatic_form span{
 
 font-size: 0.9em;
 
 }
 
-.register_form table td a{
+.pragmatic_form table td a{
 
 font-size: 0.8em;
 color: #009ACD;
