@@ -15,6 +15,8 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="css/main.css">
+        
     </head>
     <body>
         <!--[if lt IE 9]>
@@ -25,10 +27,10 @@
         
 
         <div class="pragmatic_form">
-            <fieldset><h2>Registration Form</h2>
-            <form action="#" method="post">
+            <fieldset><h2>Sign up form</h2>
+            <form action="" method="get" id="pragmatic_form" name="pragmatic_form">
                 
-                <table>
+                <table valign="top">
                     <tr>
                         <td> <label for="name">Name:</label></td>                    
                         <td><input type="text" id="name" name="user_name" required></td>    
@@ -40,8 +42,8 @@
                     </tr>
 
                     <tr>
-                        <td> <label for="cpassword">Password </br>Confirmation:</label></td> 
-                        <td><input type="password" id="cpassword" name="user_password" required></td>
+                        <td > <label for="cpassword"> Confrom Password:</label></td> 
+                        <td class="cpwd"  ><input type="password"  id="cpassword" name="cpassword" required></br></td>
                     </tr>
 
                     <tr>
@@ -136,13 +138,13 @@
                     
                      <tr>
                         <td colspan="2">
-                        <input type="checkbox" id="male" value="agreed" name="user_agreement">&nbsp;<span for="male">I Agree all <a href="#">Trems and use</a> and <a href="#">Privacy Policy</a></span>
+                        <input type="checkbox" id="male" value="agreed" name="user_agreement">&nbsp;<span for="male">I Agree all <a href="#">Terms and use</a> and <a href="#">Privacy Policy</a></span>
                         </td>                       
                     </tr>
 
                      <tr>
                         <td colspan="2" align="center">
-                            <button type="submit">Join</button>
+                            <button type="submit" id="submit" value="Submit" >Join</button>
                         </td>                       
                     </tr>
 
@@ -157,7 +159,8 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>-->
         
-         <script src="http://code.jquery.com/jquery-1.8.0.js"></script>
+         <script src="js/jquery-2.1.1.min.js"></script>
+         <script src="js/jquery.validate.js"></script>
          <script src="js/main.js"></script>
 
         

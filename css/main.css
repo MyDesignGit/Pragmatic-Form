@@ -105,20 +105,31 @@ body{
 
 .pragmatic_form{
     position: relative;
-top:10px;
- width: 300px;
- background-color: #F8F8F8;
- font-size: 0.9em;
- margin: 0 auto;
- color: #404040;
- font-weight: 700;
- padding:20px 0 0 40px;
+    top:10px;
+    width: 370px;
+    background-color: #F8F8F8;
+    font-size: 0.9em;
+    margin: 0 auto;
+    color: #404040;
+    font-weight: 700;
+    padding:20px 0 0 40px;
 
 }
 
 .pragmatic_form form table tr td{
 
     height: 50px;
+}
+
+label.error{
+    display: inline-block;
+    font-size: 0.6em;
+    color: red;
+}
+
+.pragmatic_form form table tr td .cpwd{
+
+    height: 80px;
 }
 
 .pragmatic_form a{
@@ -147,10 +158,25 @@ font-size: 0.9em;
 
 .pragmatic_form table td a{
 
-font-size: 0.8em;
+font-size: 1.0em;
 color: #009ACD;
 
 }
+
+.warm{
+
+    color: red;
+    font-size: 0.3;
+
+}
+
+.phidden{
+
+    display:none;
+}
+
+
+
 
 
 
