@@ -2,6 +2,7 @@ $(document).ready(function(){
 
 $(".pragmatic_form").hide().fadeIn(500);
 $("form").hide().fadeIn(1000);
+
 $("#cpassword").keyup(function(){
 
   if($(this).val() == $('#password').val()){
@@ -21,7 +22,7 @@ $("#cpassword").keyup(function(){
 
 $.validator.setDefaults({
     submitHandler: function() {
-      alert("submitted!");
+      $( "form" ).addClass( ".shake" );
     }
   });
 
